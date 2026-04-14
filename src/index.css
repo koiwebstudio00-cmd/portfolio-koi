@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", sans-serif;
+  
+  --color-koi-accent: #FF6B00;
+  --color-koi-dark: #0B0B0B;
+  --color-koi-card: #161616;
+  --color-koi-border: rgba(255, 255, 255, 0.08);
+  --color-koi-glass: rgba(255, 255, 255, 0.03);
+  --color-koi-text-dim: #A1A1AA;
+}
+
+@layer base {
+  body {
+    @apply bg-koi-dark text-white font-sans antialiased selection:bg-koi-accent/30;
+  }
+}
