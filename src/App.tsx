@@ -89,7 +89,7 @@ const Navbar = () => {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[100vh] flex flex-col items-center justify-center pt-20 overflow-hidden">
+    <section id="nosotros" className="relative min-h-[100vh] flex flex-col items-center justify-center pt-20 overflow-hidden">
       {/* Background Layer */}
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <div className="absolute inset-x-0 top-0 h-[800px] bg-dots opacity-40" />
@@ -404,7 +404,7 @@ const CaseStudies = () => {
   ];
 
   return (
-    <section id="casos" className="py-24">
+    <section id="proyectos" className="py-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-20 text-center">
           <h2 className="font-display text-4xl md:text-6xl font-bold mb-6">Casos reales</h2>
@@ -441,7 +441,7 @@ const Process = () => {
   ];
 
   return (
-    <section id="proceso" className="py-24 bg-white/[0.02]">
+    <section id="mision" className="py-24 bg-white/[0.02]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16 text-center">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Cómo trabajamos</h2>
@@ -471,7 +471,7 @@ const Process = () => {
 
 const CTAFinal = () => {
   return (
-    <section className="py-24 px-6">
+    <section id="contacto" className="py-24 px-6">
       <div className="max-w-5xl mx-auto rounded-[3rem] bg-koi-card p-12 md:p-24 text-center border border-koi-border relative overflow-hidden">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
